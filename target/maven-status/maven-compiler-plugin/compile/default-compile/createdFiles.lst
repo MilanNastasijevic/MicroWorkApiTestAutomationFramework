@@ -1,0 +1,9 @@
+com/bookStore/api/dto/User.class
+com/bookStore/api/core/AuthTokenProvider.class
+com/bookStore/api/core/Json.class
+com/bookStore/api/dto/ErrorResponse.class
+com/bookStore/api/config/TestConfig.class
+com/bookStore/api/core/RequestSpecFactory.class
+com/bookStore/api/dto/User$UserBuilder.class
+com/bookStore/api/config/Environment.class
+com/bookStore/api/clients/UsersApi.class

@@ -1,0 +1,27 @@
+name: API Tests
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        env: [dev, stg]   # add prod if safe
+        java: [17]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ matrix.java }}
+      - name: Run tests
+        run: mvn -Denv=${{ matrix.env }} -B -ntp clean test
+        env:
+          DEFAULT_USER_TOKEN: ${{ secrets.DEFAULT_USER_TOKEN }}
+      - name: Publish Allure report (optional)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results-${{ matrix.env }}
+          path: target/allure-results

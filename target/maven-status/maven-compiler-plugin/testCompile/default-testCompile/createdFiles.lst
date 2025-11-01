@@ -1,0 +1,5 @@
+com/example/api/tests/users/CreateUserTests.class
+com/example/api/tests/users/GetUserTests.class
+com/microworkers/smoke/JobListTest.class
+com/example/api/tests/BaseApiTest.class
+com/microworkers/smoke/BooksListResponseTest.class

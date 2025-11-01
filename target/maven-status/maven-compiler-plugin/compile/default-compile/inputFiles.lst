@@ -1,0 +1,8 @@
+/Users/milannastasijevic/Desktop/MicroWorkApiTestAutomationFramework/src/main/java/com/bookStore/api/clients/UsersApi.java
+/Users/milannastasijevic/Desktop/MicroWorkApiTestAutomationFramework/src/main/java/com/bookStore/api/config/Environment.java
+/Users/milannastasijevic/Desktop/MicroWorkApiTestAutomationFramework/src/main/java/com/bookStore/api/config/TestConfig.java
+/Users/milannastasijevic/Desktop/MicroWorkApiTestAutomationFramework/src/main/java/com/bookStore/api/core/AuthTokenProvider.java
+/Users/milannastasijevic/Desktop/MicroWorkApiTestAutomationFramework/src/main/java/com/bookStore/api/core/Json.java
+/Users/milannastasijevic/Desktop/MicroWorkApiTestAutomationFramework/src/main/java/com/bookStore/api/core/RequestSpecFactory.java
+/Users/milannastasijevic/Desktop/MicroWorkApiTestAutomationFramework/src/main/java/com/bookStore/api/dto/ErrorResponse.java
+/Users/milannastasijevic/Desktop/MicroWorkApiTestAutomationFramework/src/main/java/com/bookStore/api/dto/User.java
